@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Stefan Ianta",
   "license": "MIT",
   "devDependencies": {
     "webpack": "^3.12.0",
