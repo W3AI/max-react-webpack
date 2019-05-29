@@ -5,7 +5,7 @@ module.exports = {
     devtool: 'cheap-module-eval-source-map',
     entry: './src/index.js',
     output: {
-        path: 
+        path: '',
         filename: 'bundle.js',
         publicPath: path.resolve(__dirname, 'dist')
     },
@@ -50,7 +50,7 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif)$/,
-                loader: 'url-loader?'
+                loader: 'url-loader?limit=8000&name=images/[name].[ext]'
             }
         ]
     }
