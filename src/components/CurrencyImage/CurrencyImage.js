@@ -1,7 +1,7 @@
-import React from 'react;'
+import React from "react";
 
-import classes from './CurrencyImage.css';
-import CurrencyImage from '../../assets/currency.jpg';
+import classes from "./CurrencyImage.css";
+import CurrencyImage from "../../assets/currency.jpg";
 
 const currencyImage = (props) => (
     <div className={classes.CurrencyImage}>
